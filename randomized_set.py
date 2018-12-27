@@ -25,8 +25,9 @@ class RandomizedSet:
         3
 
     Attributes:
-        elements (list): List of elements inserted.
-        index_map (dict): Dictionary maintaining element with its index in the elements(list).
+        elements (list): List of values in the Set.
+        index_map (dict): Dictionary containing key-value pairs of elements and their indexes.
+                          Index of an element is its position in `elements` list.
 
     """
 
