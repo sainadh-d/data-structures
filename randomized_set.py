@@ -5,8 +5,6 @@ import unittest
 class RandomizedSet:
     """Data Structure which supports insert, delete and get-random element in O(1).
 
-    Duplicates not allowed
-
     Usage:
         >>> r = RandomizedSet()
         >>> r.insert(1)
